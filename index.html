@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="description" content="Frontend Mentor exercise, Pod request access landing page">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100..900&display=swap" rel="stylesheet">
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <title>Frontend Mentor | Pod request access landing page</title>
+    </head>
+    <body>
+
+      <div class="desktop-container">
+      
+        <picture class="image-container">
+          <source srcset="./images/desktop/image-host.jpg" media="(min-width: 90rem)">
+          <source srcset="./images/tablet/image-host.jpg" media="(min-width: 48rem)">
+          <img class="image-back" src="./images/mobile/image-host.jpg" alt="">
+        </picture>
+      
+        <main class="container">
+          <img class="main-logo" src="./images/logo.svg" alt="brand logo">
+
+          <h1 class="title"><span>Publish your podcasts</span> everywhere.</h1>
+
+          <p class="text">Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
+            Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+
+          <ul class="list">
+            <li class="li-logo"><img class="image-logo" src="./images/spotify.svg" alt="spotify logo"></li>
+            <li class="li-logo"><img class="image-logo" src="./images/apple-podcast.svg" alt="apple-podcast logo"></li>
+            <li class="li-logo"><img class="image-logo" src="./images/google-podcasts.svg" alt="google-podcasts logo"></li>
+            <li class="li-logo"><img class="image-logo" src="./images/pocket-casts.svg" alt="pocket-casts logo"></li>
+          </ul>
+
+          <form class="form-container" id="myForm" action="./index.html" novalidate>
+            <input class="emailAddress" type="email" id="email" name="email" placeholder="Email address" required> 
+
+            <span class="messError"></span>
+
+            <button class="button-form" id="button" type="submit" form="myForm">Request Access</button>
+
+          </form>
+
+        </main>
+
+        <img class="image-dot" src="./images/bg-pattern-dots.svg" alt="">
+
+      </div>
+
+    <script  src="./script.js"></script>
+
+    </body>
+
+</html>
