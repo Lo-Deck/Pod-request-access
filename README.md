@@ -57,12 +57,12 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
--JS
+- JS
 
 
 ### What I learned
 
-How to display an image properly and manage with `background`, `z-index and `position`.
+How to display an image properly and manage with `background`, `z-index` and `position`.
 
 Validate a `form` or not with `if(!myForm[0].validity.valid)` and send a proper message error. 
 
